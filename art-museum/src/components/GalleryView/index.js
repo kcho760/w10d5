@@ -1,5 +1,10 @@
 import { useParams } from "react-router-dom";
-function GalleryView() {
+
+
+
+function GalleryView({galleries}) {
+    // console.log(galleries[0].id)
+    
     return (
     <h1>Yello from Gallery View</h1>
     )
