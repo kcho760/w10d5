@@ -3,7 +3,7 @@ import GalleryNavigation from "./components/GalleryNavigation";
 
 function App() {
   return (
-    <GalleryNavigation/>
+    <GalleryNavigation galleries={harvardArt.records} />
   );
 }
 
